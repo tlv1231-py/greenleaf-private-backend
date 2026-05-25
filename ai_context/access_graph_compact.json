@@ -1,0 +1,97 @@
+{
+  "query_count": 0,
+  "nodes": [
+    {
+      "id": "table:CUSTOMER",
+      "kind": "Table",
+      "name": "CUSTOMER"
+    },
+    {
+      "id": "table:DESCRIPTION",
+      "kind": "Table",
+      "name": "DESCRIPTION"
+    },
+    {
+      "id": "table:EVENT",
+      "kind": "Table",
+      "name": "EVENT"
+    },
+    {
+      "id": "table:LOCATION",
+      "kind": "Table",
+      "name": "LOCATION"
+    },
+    {
+      "id": "table:ORDER",
+      "kind": "Table",
+      "name": "ORDER"
+    },
+    {
+      "id": "table:ORDER DETAIL",
+      "kind": "Table",
+      "name": "ORDER DETAIL"
+    },
+    {
+      "id": "table:ORDERrestored",
+      "kind": "Table",
+      "name": "ORDERrestored"
+    },
+    {
+      "id": "table:Paste Errors",
+      "kind": "Table",
+      "name": "Paste Errors"
+    },
+    {
+      "id": "table:PEST",
+      "kind": "Table",
+      "name": "PEST"
+    },
+    {
+      "id": "table:PLANT",
+      "kind": "Table",
+      "name": "PLANT"
+    },
+    {
+      "id": "table:PRODUCT",
+      "kind": "Table",
+      "name": "PRODUCT"
+    },
+    {
+      "id": "table:STATE",
+      "kind": "Table",
+      "name": "STATE"
+    },
+    {
+      "id": "table:tblTreatmentIntervals",
+      "kind": "Table",
+      "name": "tblTreatmentIntervals"
+    },
+    {
+      "id": "table:TEMP TABLE1",
+      "kind": "Table",
+      "name": "TEMP TABLE1"
+    },
+    {
+      "id": "table:Titles",
+      "kind": "Table",
+      "name": "Titles"
+    },
+    {
+      "id": "table:TREATMENT_DETAIL",
+      "kind": "Table",
+      "name": "TREATMENT_DETAIL"
+    }
+  ],
+  "edges": [
+    {
+      "src": "table:EVENT",
+      "dst": "table:PRODUCT",
+      "kind": "DEPENDS_ON"
+    },
+    {
+      "src": "table:ORDERrestored",
+      "dst": "table:STATE",
+      "kind": "DEPENDS_ON"
+    }
+  ]
+}
